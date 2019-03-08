@@ -245,3 +245,5 @@ Processing by ArticlesController#show as HTML
   Rendered articles/show.html.erb within layouts/application (0.0ms)
 Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.1ms)
   [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
